@@ -15,7 +15,7 @@ summary: My team developed a robotic mouse to autonomously solve a maze.
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/Micromouse - Robot.jpg">
+  <img class="ui image" src="../images/Micromouse - Robot.png">
   <img class="ui image" src="../images/Micromouse - Schematic.png">
 </div>
 
