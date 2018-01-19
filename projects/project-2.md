@@ -13,7 +13,7 @@ labels:
 summary: A High School Robotics program that I mentor for. 
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+<img class="ui image" src="{{ site.baseurl }}/images/First_robot.jpg">
 
 <img class="ui medium right floated rounded image" src="../images/First_Robot.jpg">
 
