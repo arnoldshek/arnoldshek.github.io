@@ -99,28 +99,13 @@
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
       "organization": "",
       "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "position": "VEX Robotics/VEX IQ Robot Inspector and Head Referee",
+      "startDate": "2015-08",
+      "endDate": "Present",
+      "summary": "Assist with event logisitics and ensuring the event runs smoothly. Volunteer for key volunteer positions and help where needed. ",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
       ]
     }
   ],
