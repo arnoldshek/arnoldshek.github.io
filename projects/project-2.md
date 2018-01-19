@@ -13,7 +13,7 @@ labels:
 summary: A High School Robotics program that I mentor for. 
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/First_robot.jpg">
+<img class="ui large middle floated rounded image" src="../images/First_Robot.jpg">
 
 
 FIRST Robotics is a robotics competition tailored toward High School students. Robot complexit goes far beyond a high school student's capability which allows for teams to find engineering mentors to learn from. In high school, I participated in FIRST Robotics and was inspired by my team's mentors to pursue engineering and to one day be able to inspire others as they have inspired me. 
