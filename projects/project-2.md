@@ -10,15 +10,14 @@ labels:
   - C++
   - Robotics
   - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+summary: A High School Robotics program that I mentor for. 
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/First_Robot.jpg">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+FIRST Robotics is a robotics competition tailored toward High School students. Robot complexit goes far beyond a high school student's capability which allows for teams to find engineering mentors to learn from. In high school, I participated in FIRST Robotics and was inspired by my team's mentors to pursue engineering and to one day be able to inspire others as they have inspired me. 
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
-
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
+Mentors on the team learn alongside the students. Building the robot and competing is basically one big project that requires design, planning, budgetting, troubleshooting, etc. My role on the team I mentor is to assist with the design process, to assist the Electrical sub-team with troubleshooting, and to teach the students the necessary skills to assist with the robot. These skills include programming, logic, wiring, soldering, etc. In addition to this, I assist with strategy and scouting which are needed for competition. 
  
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+You can learn more at the [FIRST Robotics Website](https://www.firstinspires.org/).
+
