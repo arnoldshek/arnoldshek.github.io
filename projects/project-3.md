@@ -1,11 +1,11 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
+image: images/Arduino.jpg
 title: Arduino Medicine Dispenser
 permalink: projects/cotton
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2016-08-24
 labels:
   - Arduino
   - C
