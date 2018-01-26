@@ -23,7 +23,7 @@ For this project, I was the person that was mainly in charge of hardware. I desi
 
 Here is some code that illustrates the P-control we used for cell position:
 
-  <img class="ui image" src="../images/Micromouse - Move_One_Cell.PNG">
+  <img class="ui image" src="../images/Move_One_Cell.PNG">
 
 
 
