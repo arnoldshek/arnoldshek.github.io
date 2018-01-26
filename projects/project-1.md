@@ -21,7 +21,107 @@ Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Event
 
 For this project, I was the person that was mainly in charge of hardware. I designed the physical structure of the mouse in addition to working on the PCB for our mouse. Working on the PCB involved picking out components and using Eagle CAD to design the PCB. In addition to this, I worked with my teammates to create the lower level motor functions which included cell-by-cell movements and positional PD-control to keep our mouse centered within the cells.  
 
-Here is some code that illustrates how we read values from the line sensors:
+Here is some code that illustrates the P-control we used for cell position:
+
+void p_Control_Right(int Right_ref, int Left_ref)
+{
+    //float Kp = 0.07;
+    float Error_right;
+    float Error_left;
+    float Right_adjusted;
+    float Left_adjusted;
+    if(Sensor_right <= 550)//MAX_DISTANCE)
+    {
+        //LATB = LED_FOUR | LED_THREE;
+        Error_right = Right_ref - Sensor_right;
+        if(Error_right < 0)
+        {
+            //Far adjustment
+            if(abs(Error_right) > 100)
+            {
+                //LATB = LED_TWO | LED_FOUR;
+                Right_adjusted = Kp_far*Error_right;
+                Left_speed = Normal_speed;
+                Right_speed = Normal_speed - (int)Right_adjusted;
+            }
+            else
+            {
+                Left_speed = Normal_speed;
+                Right_speed = Normal_speed;
+            }
+        }
+        else
+        {
+            //near adjustment
+            if(abs(Error_right) > 5)
+            {
+                //LATB = LED_ONE | LED_FOUR;
+                Right_adjusted = Kp_near*Error_right;
+                Left_speed = Normal_speed;
+                if(Mode == 0)
+                {
+                    Right_speed = Normal_speed - (int)Right_adjusted;
+                }
+                else
+                {
+                    Left_speed = Normal_speed + (int)Right_adjusted;
+                }
+            }
+            else
+            {
+                Left_speed = Normal_speed;
+                Right_speed = Normal_speed;
+            } 
+        }
+    }
+    else if(Sensor_left <= 550)//MAX_DISTANCE) 
+    {
+        //LATB = LED_FOUR | LED_THREE;
+        //LATB = LED_FOUR | LED_TWO;
+        Error_left = Left_ref - Sensor_left;
+        if(Error_left < 0)
+        {
+            if(abs(Error_left) > 100)
+            {
+                Left_adjusted = Kp_far*Error_left;
+                Right_speed = Normal_speed;
+                if(Mode == 0)
+                {
+                   Left_speed = Normal_speed - (int)Left_adjusted;
+                }
+                else
+                {
+                    Right_speed = Normal_speed + (int)Left_adjusted;
+                }
+            }
+            else
+            {
+                Right_speed = Normal_speed;
+                Left_speed = Normal_speed;
+            }
+        }
+        else
+        {
+            if(abs(Error_left) > 5)
+            {
+                Left_adjusted = Kp_near*Error_left;
+                Right_speed = Normal_speed;
+                Left_speed = Normal_speed - (int)Left_adjusted;
+            }
+            else
+            {
+                Right_speed = Normal_speed;
+                Left_speed = Normal_speed;
+            }            
+        }
+    }
+    else
+    {
+        //LATB = LED_FOUR | LED_ONE;
+        Right_speed = Normal_speed;
+        Left_speed = Normal_speed;
+    } 
+}
 
 
 
