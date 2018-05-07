@@ -14,9 +14,6 @@ labels:
   - JSX
 summary: My team designed a website for users to find roommates and off campus housing. 
 ---
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/Landing2.png">
-</div>
 
 
 
@@ -26,7 +23,7 @@ For this project, I was responsible for generating user profiles, styling all th
 
 Here you can see the landing page for our website: 
 
-<img class="ui image" src="../images/halemanoa.PNG">
+<img class="ui image" src="../images/landing2.PNG">
 
 Documentation for our development process can be found [here:](http://www.hale-manoa.github.io)
 
