@@ -23,7 +23,7 @@ For this project, I was responsible for generating user profiles, styling all th
 
 Here you can see the landing page for our website: 
 
-<img class="ui image" src="../images/Landing2.PNG">
+<img class="ui image" src="../images/Landing2.png">
 
 Documentation for our development process can be found [here](http://www.hale-manoa.github.io).
 
