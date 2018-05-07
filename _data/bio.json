@@ -51,15 +51,18 @@
       "keywords": [
         "C",
         "C++",
+        "Verilog HDL",
         "Javascript",
-        "Verilog HDL"
+        "HTML/CSS"
       ]
     },
     {
       "name": "Toolsets",
       "level": "",
       "keywords": [
-        "Eagle CAD"
+        "Eagle CAD",
+        "Semantic UI",
+        "React"
       ]
     }
   ],
@@ -82,7 +85,7 @@
       "website": "",
       "startDate": "2018-01-09",
       "endDate": "Present",
-      "summary": "Assist engineers with projects by creating cables, designing PCBs, etc. Also included generating Purchase Orders for parts and general office work.",
+      "summary": "Assist engineers with projects by wiring systems, creating testbenches, designing PCBs, etc. Also includes generating Purchase Orders for parts and general office work.",
       "highlights": [
       ]
     }
@@ -104,7 +107,7 @@
       "title": "Chancellor's Scholarship",
       "date": "2015-Present",
       "awarder": "University of Hawaii at Manoa",
-      "summary": "A scholarship awarded to a limited number of Hawaii High School students who's applications were accepted, meeting a 3.5 minimum GPA and a minimum SAT/ACT score."
+      "summary": "A scholarship awarded to a limited number of Hawaii High School students who's applications were accepted (about 80 awards per year out of 1000+ applicants), meeting a 3.5 minimum GPA and a minimum SAT/ACT score."
     }
   ],
   "references": [
