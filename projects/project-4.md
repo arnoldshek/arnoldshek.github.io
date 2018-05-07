@@ -25,6 +25,6 @@ Here you can see the landing page for our website:
 
 <img class="ui image" src="../images/Landing2.PNG">
 
-Documentation for our development process can be found [here:](http://www.hale-manoa.github.io)
+Documentation for our development process can be found [here](http://www.hale-manoa.github.io).
 
-The source code can also be found [here:](https://github.com/hale-manoa/hale-manoa)
+The source code can also be found [here](https://github.com/hale-manoa/hale-manoa).
